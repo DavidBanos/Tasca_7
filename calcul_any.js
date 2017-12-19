@@ -16,6 +16,14 @@ function calcularsegle(any) {
 
     }
 
-function calculany(anyo) {
-    (anyo).charAt(2,3) + anyo.charAt((2,3)/4);
+function calcularany(anyo) {
+    
+    var a = anyo.toString().substring(-2);
+    console.log(a);
+    a = parseInt(a);
+    a = Math.trunc(a/4);
+}
+
+function anydetraspas(anytraspas) {
+
 }
