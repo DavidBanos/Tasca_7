@@ -12,8 +12,7 @@ function calcularsegle(any) {
     } else if (any >=2200 && any<=2299) {
         return -4;
     }
-        
-
+    
     }
 
 function calcularany(any) {
@@ -85,27 +84,27 @@ function anydetraspas(any, mes) {
         return R;
     }
     
-    function resultado(R) {
+    function resultat(R) {
         if (R == 1) {
-            var resultado= "Lunes";
-            return resultado;
+            var resultat= "Lunes";
+            return resultat;
         } else if (R == 2) {
-            var resultado= "Martes";
-            return resultado;
+            var resultat= "Martes";
+            return resultat;
         } else if (R == 3) {
-            var resultado= "Miércoles";
-            return resultado;
+            var resultat= "Miércoles";
+            return resultat;
         } else if (R == 4) {
-            var resultado= "Jueves";
-            return resultado;
+            var resultat= "Jueves";
+            return resultat;
         } else if (R == 5) {
-            var resultado= "Viernes";
-            return resultado;
+            var resultat= "Viernes";
+            return resultat;
         } else if (R == 6) {
-            var resultado= "Sábado";
-            return resultado;
+            var resultat= "Sábado";
+            return resultat;
         } else if (R == 0) {
-            var resultado= "Domingo";
-            return resultado;
+            var resultat= "Domingo";
+            return resultat;
         }
 }

@@ -18,17 +18,17 @@
             var mes = prompt("Escriu el mes (de l'1 al 12)");
             var any = prompt("Escriu l'any (del 1700 fins al 2299)");
     
-            var A = calculSegle(any);
-            var B = calculAny(any);
+            var A = calcularsegle(any);
+            var B = calcularany(any);
     
-            var C = calculBisiesto(any, mes);
+            var C = anydetraspas(any, mes);
             var D = calculMes(mes);
             var E = calculDia(dia);
             var R = algoritme(A, B, C, D, E);
-            var resultado = resultado(R);
+            var resultat = resultat(R);
     
             
-            document.write("El dia "+dia+" del mes "+mes+" de l'any "+any+" era... \n"+resultado);
+            document.write("El dia "+dia+" del mes "+mes+" de l'any "+any+" era... \n"+resultat);
     
         </script>
 
