@@ -13,14 +13,24 @@
     <h1>
         Càlcul del dia de la setmana
     </h1>
-    <script>
-        var dia=prompt("Introdueix el dia");
-        var mes=prompt("Introdueix el mes");
-        var any=prompt("Introdueix l'any");
-        
-        var any=(calcularsegle);
+        <script>
+            var dia = prompt("Escriu el dia (de l'1 al 31)");
+            var mes = prompt("Escriu el mes (de l'1 al 12)");
+            var any = prompt("Escriu l'any (del 1700 fins al 2299)");
+    
+            var A = calculSegle(any);
+            var B = calculAny(any);
+    
+            var C = calculBisiesto(any, mes);
+            var D = calculMes(mes);
+            var E = calculDia(dia);
+            var R = algoritme(A, B, C, D, E);
+            var resultado = resultado(R);
+    
+            
+            document.write("El dia "+dia+" del mes "+mes+" de l'any "+any+" era... \n"+resultado);
+    
+        </script>
 
-        
-    </script>
     
 </body>
