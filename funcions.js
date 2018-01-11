@@ -13,7 +13,7 @@ function calcularsegle(any) {
         return -4;
     }
     
-    }
+}
 
 function calcularany(any) {
     
@@ -41,6 +41,7 @@ function anydetraspas(any, mes) {
     } else {
         return 0;
     }
+}
 
     function calculMes(mes) {
         if (mes == 1) {
@@ -86,25 +87,25 @@ function anydetraspas(any, mes) {
     
     function resultat(R) {
         if (R == 1) {
-            var resultat= "Lunes";
+            var resultat= "Dilluns";
             return resultat;
         } else if (R == 2) {
-            var resultat= "Martes";
+            var resultat= "Dimarts";
             return resultat;
         } else if (R == 3) {
-            var resultat= "Miércoles";
+            var resultat= "Dimecres";
             return resultat;
         } else if (R == 4) {
-            var resultat= "Jueves";
+            var resultat= "Dijous";
             return resultat;
         } else if (R == 5) {
-            var resultat= "Viernes";
+            var resultat= "Divendres";
             return resultat;
         } else if (R == 6) {
-            var resultat= "Sábado";
+            var resultat= "Dissabte";
             return resultat;
         } else if (R == 0) {
-            var resultat= "Domingo";
+            var resultat= "Diumenge";
             return resultat;
         }
 }
